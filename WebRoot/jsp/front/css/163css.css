@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* CSS Document */
+li{list-style:none;}
+.s_name{ float:left; display: block; width: 60px; padding-top: 4px;}
+.star_ul5{background: url(/LifeService/jsp/images/star.png) no-repeat 0px 0px; width: 75px;height: 15px;margin-left: 75px;margin-top: 3px;position: absolute;}
+.star_ul4{background: url(/LifeService/jsp/images/star.png) no-repeat 0px -17px; width: 75px;height: 15px;margin-left: 75px;margin-top: 3px;position: absolute;}
+.star_ul3{background: url(/LifeService/jsp/images/star.png) no-repeat 0px -34px; width: 75px;height: 15px;margin-left: 75px;margin-top: 3px;position: absolute;}
+.star_ul2{background: url(/LifeService/jsp/images/star.png) no-repeat 0px -52px; width: 75px;height: 15px;margin-left: 75px;margin-top: 3px;position: absolute;}
+.star_ul1{background: url(/LifeService/jsp/images/star.png) no-repeat 0px -69px; width: 75px;height: 15px;margin-left: 75px;margin-top: 3px;position: absolute;}
+
+
+
+

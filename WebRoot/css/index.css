@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0;font-size: 12px;}
+ol, ul, li { list-style:none }
+a {color:#000; text-decoration:none; font-size:12px;}
+a:hover {color:#FF0000;}
+.sa_qx{cursor: pointer;border: 1px solid red;}
+.form-text {
+    line-height: 12px;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #4e6877;
+	-o-text-shadow:1px 1px 1px #4e6877;
+	-o-moz-shadow:1px 1px 1px #4e6877;
+	-o-mis-shadow:1px 1px 1px #4e6877;
+	-o-webkit-shadow:1px 1px 1px #4e6877;
+}
+.bt_img{cursor: pointer;}
+.bt_img:hover{opacity:0.4;filter:alpha(opacity=40);} 
+.form-text img{float: right;margin-right: 10px;margin-top: 5px;}
+.allinp{width: 100%;height: 100%;border:none;}
+.allinp2{width:96%;height: 100%;border:none;}
+.inptext{ 
+	 border:1px solid #80acd9;
+  width:100%;
+  height:22px;
+   background:#fff;
+  color:#000;
+  font-size:14px; 
+  text-indent:12px; 
+  border-color: #0787be;
+  box-shadow: 0 1px 4px rgba(11, 122, 179, 0.65) inset, 0 0 14px rgba(11, 122, 179, 0.45);
+ }
+  
+  
+ .inptextSel{ 
+	 border:1px solid #80acd9;
+  width:100%;
+  height:26px;
+   background:#fff;
+  color:#000;
+  font-size:14px; 
+  text-indent:12px; 
+  border-color: #0787be;
+  box-shadow: 0 1px 4px rgba(11, 122, 179, 0.65) inset, 0 0 14px rgba(11, 122, 179, 0.45);
+ }
+  .inptextSel2{ 
+	 border:1px solid #80acd9;
+  width:96%;
+  height:26px;
+   background:#fff;
+  color:#000;
+  font-size:14px; 
+  text-indent:12px; 
+  border-color: #0787be;
+  box-shadow: 0 1px 4px rgba(11, 122, 179, 0.65) inset, 0 0 14px rgba(11, 122, 179, 0.45);
+ }
+  .noWidthSel{ 
+	 border:1px solid #80acd9;
+  height:24px;
+   background:#fff;
+  color:#000;
+  text-indent:12px; 
+  border-color: #0787be;
+  box-shadow: 0 1px 4px rgba(11, 122, 179, 0.65) inset, 0 0 14px rgba(11, 122, 179, 0.45);
+ }
+ .inptext3{ 
+	 border:1px solid #80acd9;
+  width:100%;
+  height:26px;
+   background:#fff;
+  color:#000;
+  font-size:14px; 
+  text-indent:12px; 
+  border-color: #0787be;
+  box-shadow: 0 1px 4px rgba(11, 122, 179, 0.65) inset, 0 0 14px rgba(11, 122, 179, 0.45);
+ }
+ 
+.inparea{
+  border:1px solid #80acd9;
+  width:100%;
+  height:50px;
+  background:#fff;
+  color:#000;
+  font-size:14px; 
+  text-indent:12px; 
+  border-color: #0787be;
+  box-shadow: 0 1px 4px rgba(11, 122, 179, 0.65) inset, 0 0 14px rgba(11, 122, 179, 0.45);
+}
+#inpTb tr{height:38px;}
+.inptextxiao2{  
+	border:1px solid #80acd9;
+  width:80%;
+  height:20px;
+  background:#fff;
+  color:#000;
+  font-size:14px; 
+  text-indent:12px; 
+  border-color: #0787be;
+  box-shadow: 0 1px 4px rgba(11, 122, 179, 0.65) inset, 0 0 14px rgba(11, 122, 179, 0.45);
+}
+
+
+
+/* 按扭样式1 */
+.btn1{height: 30px;background-image: url("/dangan/images/btn.png");font-size: 14px;color:#fff;padding-left: 15px;padding-right: 15px;margin-left: 10px;border: none;}
+.btn1:hover {opacity:0.8;filter:alpha(opacity=90);}
+.redBorder{border: 1px solid red;}
+
+/* 头文字样式 */
+.headCss{border: 1px solid #d8d8d8;cursor: pointer;font-size:14px;text-align:center;
+	color:#fff;background-color:#dcdcdc;padding-top:5px;padding-bottom:5px;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #4e6877;
+	-o-text-shadow:1px 1px 1px #4e6877;
+	-o-moz-shadow:1px 1px 1px #4e6877;
+	-o-mis-shadow:1px 1px 1px #4e6877;
+	-o-webkit-shadow:1px 1px 1px #4e6877;}
+.headCss img{vertical-align: middle;margin-right: 3px;}
+.titleForm{text-align: right;padding-right: 3px;font-size: 14px;}
+/* 导航样式 */
+.daohang{font: bold;background-color: #ffffff;}
+.daohang span{padding-right: 5px;padding-left: 5px;}
+
+.seltype{text-align: left;margin-top: 5px;}
+.seltype li{padding-left: 5px;height: 25px;border-bottom:1px dashed #E0EEE0;line-height: 28px; }
+.seltype li span{float: right;}
+.seltype li:hover{background-color: #eeeeee;cursor: pointer;}
+/* 页面处理主DIV左右分 */
+.mainDiv{width: 100%;}
+.page_left{float: left;width: 30%;}
+.page_right{float: right;width: 68%;}
+/* 表格样式 */
+.tbdiv table{border-collapse: collapse;border-spacing: 0;width: 100%;}
+.tbdiv table tr{height: 25px;}
+.tbdiv table tr:nth-child(2n+0){background-color: #eeeeee;}
+.tbdiv table  tr:not(.headTitle) :hover{background-color: #E0EEE0;}
+.tbdiv table tr td{border: 1px solid #cccccc;padding-left: 2px;}
+.onetab{border-collapse: collapse;border-spacing: 0;width: 100%;}
+.onetab tr{height: 28px;}
+.headTitle{background-color: #6495ED;font-weight: bold;text-align: center;color:#fff}
+.pageString{text-align: right;}
+.pageString span{margin-right: 5px;}
+.pageString a{margin-right: 5px;cursor: pointer;}
+/* 按扭--1 */
+.bt_tony{font-size: 1em;
+	font-weight: bold;
+	color:#fff;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-radius:.3125em; 
+	border-radius:.3125em;
+	width: 98%;
+	padding-top: 5px;padding-bottom: 5px; 
+	background-color: #1E90FF /*{global-icon-color}*/;
+	}
+.bt_tony:link {
+	text-decoration: none !important;
+}
+/* 按扭--2 */
+.bt2_tony{font-size: 1em;
+	font-weight: bold;
+	color:#fff;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-radius:.3125em; 
+	border-radius:.3125em;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top: 5px;padding-bottom: 5px; 
+	margin-left:10px;
+	background-color: #1E90FF /*{global-icon-color}*/;
+	}
+.bt2_tony:link {
+	text-decoration: none !important;
+}
+.titfont{text-align: center;font-weight: bold;}
+
+
+/* xiao css */
+
+.xiaozid{filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=180,strength=5);/*ie*/  
+-moz-box-shadow: 5px 5px 11px #909090;/*firefox*/  
+-webkit-box-shadow:5px 5px 11px #909090;/*safari或chrome*/  
+box-shadow:5px 5px 11px #909090;/*opera或ie9*/  
+	
+}
+/*查询有DIV*/
+.findDiv{font-weight: bold;line-height: 25px;text-align: left;margin-left: 10px;}
+.formtable{margin-top: 10px;}
+.formtable tr{height: 30px;}
+.formtable tr td{padding-top: 10px;}
+
+#objtypename{height: 30px;line-height: 32px;}
+.selDiv{clear: both; border: none;width: 100%;font-size: 14px;line-height: 28PX;background: #121212;}
+.selDiv li{border-bottom: 1px solid #d9d9d9;padding-left: 10px;}
+.selDiv li:hover{background-color: #d9d9d9;cursor: pointer;}
+
+
+
+.inTable{margin-top: 10px;margin-bottom: 15px;}
+.inTable tr{height: 30px;}
+.inTable tr td{text-align: right;padding-right: 2px;}
+.trul{line-height: 23px;}
+.trul li{height: 22px;border-bottom: 1px solid #d8d8d8;width: 98%;}
+#zdinfo tr{height: 22px;}
+
+.heidiv{background-color: #FBFBFF;margin-top: 15px;}
+.heidiv div{height: 28px;line-height: 28px;border-bottom: 2px solid #DDDDFF;font-size: 16px;font-weight: bold;}
+.heidiv div img{cursor: pointer;float: right;margin-right: 20px;}
+.heidiv div img:hover{background-color: #FFDC35;}
+.heidiv table{display: none;}
+/*==给TD内多余的字符隐藏起来==*/
+.hideMore table {	table-layout: fixed; /* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */}
+.hideMore  table tr td {
+	word-break: keep-all; /* 不换行 */
+	white-space: nowrap; /* 不换行 */
+	overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow: ellipsis;
+	/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用*/
+}
+.addXz{text-align: center;height: 25px;background-color: #d8d8d8;}
+.tctd{text-align: left;padding-left: 10px;}
+.sitTxt{text-align: left !important;font-size: 11px;color: #gray;} /*用于提示信息*/
+.fileinput{height: 28px;border: none;}

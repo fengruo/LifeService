@@ -1,0 +1,21 @@
+body{padding: 0;margin: 0;}
+#dateForPage{border: 1px solid #696;padding: 60px 0;text-align: center; width:600px;margin-left:20%;height: 318px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 0px 0px 10px;
+-moz-box-shadow: #666 0px 0px 10px;
+box-shadow: #666 0px 0px 10px;background: #f3f6f9;}
+#dateForPage table tr td{width:46px;height: 50px;margin-left: 10px;}
+#dateTbody{background-color: #E8E8E8;}
+#dateTbody tr td{height: 28px;font-size: 22px;color: #6699ff;text-align: center;}
+#title2{height: 33px;color: #fff;text-align: center;padding-top: 4px;background-color: #228629;}
+#title2 td{font-size: 22px;}
+#title2 td a{font-size: 22px;color:#fff;}
+#title3{height: 30px;color: #gray;text-align: center;padding-top: 4px;}
+.currentNow{height: 100%;width: 100%;background-color: #3D95EE;font-size: 14px;color: #fff;text-align: left;}
+.currentNow div{text-align: center;}
+.currentNow div span{font-size: 26px;color: red;}
+.borderRed{background-color: #00ccff;}
+.afterNow{color: #000;cursor: pointer;height: 100%;width: 100%;font-size: 22px;}
+.headtit{height: 33px;text-align: center;background-color: #2f5076;line-height: 35px;color: #fff;}

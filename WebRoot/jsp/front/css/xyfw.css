@@ -1,0 +1,191 @@
+@CHARSET "UTF-8";
+.main_navmain div{
+	background-color: rgba(84,158,194,0.2);
+}
+.main_navmain div h4{
+	margin-left:-15px;
+	width:264px;
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height:28px;
+	height:27px;
+	background-color: rgba(132,135,136,0.2);
+}
+.main_navmain div span{
+	margin-bottom:2px;
+	height:20px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	overflow: hidden;
+}
+.main_navmain div span a{
+	text-decoration: none;
+	
+}
+.main_all{
+	margin-left:15px;
+	width:1140px;
+	background-color: rgba(236,238,239,0.4);
+}
+.title_line{
+	margin-top:0px;
+	height:40px;
+	line-height:40px;
+	background-color: rgba(236,238,239,0.5);
+}
+.input_line{
+	margin-top:4px;
+}
+.main_left{
+	background-color:white;
+	margin-left: -15px;
+	margin-top: 0px;
+	width: 200px;
+}
+.main_center_xyfw{
+	margin-left: 15px;
+}
+/* 图片轮播 */
+.str4 img { opacity:0.8}
+.str4 img:hover { opacity:1}
+.str4.str_wrap.str_active {
+	background:#fff;
+}
+.str4 .str_item {
+	font-size: 0;
+	line-height: 0
+}
+.str_wrap {
+	margin-top:50px;
+	padding-left: 3em;
+	padding-right: 3em;
+	background: #fefefe;
+	height: 10em;
+	line-height: 2em;
+	font-size: 1.2em;
+}
+/* 推荐服务  */
+.tuijianfw{
+	margin-left:20px;
+	width:730px;
+	height:300px;
+	border:1px solid black;
+	padding: 0px; 
+}
+/* 热门服务 */
+.remenfw{
+	padding:0px;
+	margin-left:5px;
+	width:200px;
+	height:300px;
+	border:1px solid black; 
+}
+/*服务条目  下半部分  */
+.fenleifw{
+	margin-top:5px;
+	border: 1px solid rgb(0,0,0,0.3);
+	width:1140px;
+	margin-left:30px;
+	box-shadow:1px 2px 1px 2px #abcdef ;
+}
+/* 查询条件部分 */
+.fenlei{
+	height: 300px;
+	width:1140px;
+	margin-left:-15px;
+	text-align: center;
+
+}
+
+.fenlei a:link{
+	text-decoration: none;
+}
+.fenlei a span:hover{
+	background-color: #ff8400;
+	color: #fff;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+}
+.fenlei a span:active{
+	background-color: #ff8400;
+}
+/* 服务二级分类 */
+.fenlei2{
+	width: 100%;
+	height:30%;
+	margin-top:5px;
+	font-size: 15px;
+	border-bottom: 1px solid rgb(0,0,0,0.3); 
+}
+.fenlei2-left{
+	width: 15%;
+	float:left;
+	margin-top:5px;
+}
+.fenlei2-right{
+	width: 85%;
+	float:right;
+}
+.fenlei2-right a{
+	width: 96px;
+	float:left;
+	margin-top:5px;
+	outline:none;
+}
+/*推荐服务分类  */
+.tuijian{
+	width: 100%;
+	height:30%;
+	font-size: 15px;
+	border-bottom: 1px solid rgb(0,0,0,0.3); 
+}
+/*区域	*/
+.quyu{
+	width: 100%;
+	height:30%;
+	font-size: 15px;
+}
+.fenye{
+	width: 100%;
+	height: 10%;
+	line-height:30px;
+	text-align:right;
+	font-size:16px;
+	background-color: rgb(0,0,0,0.3);
+}
+/*服务列表  */
+.fwlist{
+	height: 900px;
+	width:1140px;
+	margin-left:-15px;
+	text-align: center;
+	
+}
+.fwlist1{
+	height: 120px;
+	margin: 0px auto;
+	padding: 0px;
+	border: 1px solid rgb(0,0,0,0.3); 
+}
+.fwtable{
+	margin-top: 10px;
+}
+.fwlist tr{
+	
+}
+.fwlist tr td{
+	font-size: 14px; 
+}
+.headlist{
+	font-size: 15px;
+	color: #3399CC;
+}
+.fwimg img{
+	margin-right: 15px
+}
+.fwinfo li{
+	height: 22px;
+	 
+}

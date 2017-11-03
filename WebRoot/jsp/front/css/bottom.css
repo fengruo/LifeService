@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+.bottom_layer{
+	color:#666666;
+	margin-top:25px;
+	margin-bottom: 15px;
+}
+.bottom_layer div a{
+	text-decoration: none;
+}

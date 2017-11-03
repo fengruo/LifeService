@@ -1,0 +1,301 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+.clear_both {
+	clear: both;
+}
+
+.top_layer_01 {
+	background-image: url("../images/top_layer_01.jpg");
+	height: 30px;
+	border-bottom: 1px #CDCDCD solid;
+}
+
+.top_layer_01 div span {
+	font-family: "FangSong_GB2312";
+	margin-left: 5px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.top_layer_01 div .top_layer_01_right {
+	font-size: 16px;
+}
+
+.top_layer_02 {
+	margin-top: 8px;
+	height: 85px;
+}
+
+.top_layer_02 .top_layer_02_right img {
+	float: right;
+}
+
+.top_layer_03 {
+	background-image: url("../images/top_layer_03.png");
+	height: 35px;
+	margin-top: 5px;
+}
+
+.top_layer_03 ul,li {
+	list-style: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.top_layer_03 ul li {
+	float: left;
+	width: auto;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.top_layer_03 ul li:nth-of-type(odd) {
+	font-family: "Microsoft YaHei";
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.top_layer_03 ul li:nth-of-type(even) {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.top_layer_03 ul li:nth-of-type(odd):hover {
+	font-size: 16px;
+	color: #FFFF00;
+}
+
+/*固定nav开始*/
+.nav {
+	width: 1200px;
+	height: 50px;
+	border-bottom: 1px #DDDDDD solid;
+	display: none;
+	background-color: #FFFFFF;
+	z-index: 999;
+}
+
+.nav .nav-left {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.nav .nav-left .nav-left-sp01 {
+	color: #6AB4FF;
+	font-size: 16px;
+	font-family: "Microsoft yahei";
+}
+
+.nav .nav-left .nav-left-sp02 {
+	color: #6AB4FF;
+	font-size: 14px;
+	font-family: "Microsoft yahei";
+}
+
+.nav .nav-center {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.nav .nav-center .nav-center-form {
+	display: inline;
+}
+
+.nav .nav-center .nav-center-form .nav-center-form-in01 {
+	color: #333;
+	height: 30px;
+	border: 2px solid #7abdff;
+	width: 290px;
+	line-height: 30px;
+	text-indent: 5px;
+	border-right: none;
+	outline: none;
+	padding: 0;
+}
+
+.nav .nav-center .nav-center-form .nav-center-form-in02 {
+	height: 34px;
+	border: 0;
+	background: #7abdff url(../images/fix_map.png) 8px -200px no-repeat;
+	width: 74px;
+	cursor: pointer;
+	color: #fff;
+	text-indent: 15px;
+	line-height: 32px;
+	margin-right: 5px;
+	margin-left: -5px;
+	border-radius: 5px;
+}
+
+.nav .nav-center .nav-center-form {
+	float: left;
+	width: 480px;
+	margin-top: 3px;
+	line-height: 32px;
+}
+
+.nav .nav-center .nav-center-form .nav-center-form-in02:hover {
+	background: #5cadfd url(../images/fix_map.png) 8px -200px no-repeat;
+}
+
+.nav .nav-right img {
+	width: 374;
+	height: 50px;
+}
+/*固定nav结束*/
+
+/*登陆*/
+.mask {
+	margin: 0;
+	padding: 0;
+	border: none;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#LoginBox {
+	position: absolute;
+	left: 460px;
+	top: 150px;
+	background: white;
+	width: 426px;
+	height: 282px;
+	border: 3px solid #444;
+	border-radius: 7px;
+	z-index: 10000;
+	display: none;
+}
+
+#regBox {
+	position: absolute;
+	left: 460px;
+	top: 100px;
+	background: white;
+	width: 426px;
+	height: 452px;
+	border: 3px solid #444;
+	border-radius: 7px;
+	z-index: 10000;
+	display: none;
+}
+
+.row1 {
+	background: #f7f7f7;
+	padding: 0px 20px;
+	line-height: 50px;
+	height: 50px;
+	font-weight: bold;
+	color: #666;
+	font-size: 20px;
+}
+
+.row {
+	height: 77px;
+	line-height: 77px;
+	padding: 0px 30px;
+	font-family: 华文楷体;
+	font-size: x-large;
+}
+
+.regrow {
+	line-height: 20px;
+	padding: 5px 30px;
+	font-family: 华文楷体;
+	font-size: 20px;
+}
+.regrowtab tr td input{
+	height: 25px;
+	width:150px;
+	font-size: 14px;
+}
+.regrowtab tr td{
+	padding-top: 15px;
+}
+.fileinput{
+	font-size: 16px;
+}
+.close_btn {
+	font-family: arial;
+	font-size: 30px;
+	font-weight: 700;
+	color: #999;
+	text-decoration: none;
+	float: right;
+	padding-right: 4px;
+}
+
+.inputBox {
+	border: 1px solid #c3c3c3;
+	padding: 1px 3px 6px 3px;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+#txtName {
+	height: 27px;
+	width: 230px;
+	border: none;
+}
+
+#txtPwd {
+	height: 27px;
+	width: 230px;
+	border: none;
+}
+
+
+
+#regbtn {
+	color: White;
+	background: #4490f7;
+	text-decoration: none;
+	padding: 10px 95px;
+	margin-left: 87px;
+	margin-top: 40px;
+	border-radius: 5px;
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+}
+
+.warning {
+	float: right;
+	color: Red;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 20px;
+	display: none;
+}
+.loginbtn {
+	height：30px;
+	font-size:20px;
+	color: White;
+	background: #4490f7;
+	text-decoration: none;
+	padding: 5px 95px;
+	margin-left: 87px;
+	margin-top: 15px;
+	border-radius: 5px;
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+}

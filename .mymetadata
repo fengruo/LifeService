@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="LifeService"
+  id="myeclipse.1499044357388"
+  context-root="/LifeService"
+  j2ee-spec="5.0"
+  archive="LifeService.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

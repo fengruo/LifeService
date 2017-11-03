@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+.main_center_ztbd_title{
+	margin-top: 7px;
+}
+.main_center_ztbd_title span{
+	font-weight: bold;
+	font-size: 24px;
+}
+.main_center_ztbd_info{
+	margin-top: 10px;
+	border-bottom: 1px solid #BBBBBE;
+	margin-bottom: 10px;
+}
+.main_center_ztbd_info span{
+	font-size: 14px;
+}
+.main_center_ztbd_content{
+	margin-top: 10px;
+}
+.curved_box {
+    display: inline-block;
+    *display: inline;
+    width: 832px;
+    min-height:572px; 
+    margin: 5px;
+    margin-left:20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.06) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    position: relative;
+    *zoom: 1;
+}
+
+.curved_box:before {
+    -webkit-transform: skew(-15deg) rotate(-6deg);
+    -moz-transform: skew(-15deg) rotate(-6deg);
+    transform: skew(-15deg) rotate(-6deg);
+    left: 15px;
+}
+.curved_box:after {
+    -webkit-transform: skew(15deg) rotate(6deg);
+    -moz-transform: skew(15deg) rotate(6deg);
+    transform: skew(15deg) rotate(6deg);
+    right: 15px;
+}
+
+.curved_box:before, .curved_box:after {
+    width: 140px;
+    height: 120px;
+    content: ' ';
+    -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 10px;
+    z-index: -1;	
+}
+.main_ztbd_right{
+	
+}
+.main_ztbd_right img{
+	margin-top: 5px;
+}
+.ztbd_today{
+	margin-top:5px;
+	font-size: 20px;
+	width: 250px;
+	border: 1px #BFB4B4 dashed ;
+}
+
+.ztbd_today em{
+	color:red;
+}
+.ztbd_today_hot{
+	margin-left:-40px;
+	margin-top:0px;
+	height: 245px;
+	overflow: hidden; 
+}
+.ztbd_today_hot ul{
+	line-height:16px;
+	margin-top: 5px;
+}
+.ztbd_today_hot ul li img{
+	margin-left:5px;
+	width: 16px;
+	height: 16px;
+}
+.ztbd_today_hot ul li{
+	height:31.25px;
+}
+.ztbd_today_hot ul,li {
+	border-bottom: 1px #BFB4B4 dashed ;
+	font-size:16px;
+	text-align:left;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.ztbd_today_hot ul li a{
+	line-height:30px;
+	margin-left:5px;
+	color:#070707;
+	text-decoration: none; 
+} 
+.ztbd_today_hot ul li a:HOVER{
+	color: #FAA147;
+} 
+.ztbd_today_hot ul li:HOVER{
+	background-color: #B9DDF6;
+} 
+.ztbd_today_span{
+	width: 250px;
+	border-bottom: 1px #BFB4B4 dashed ;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.action.extension" value="tony" />
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.multipart.maxSize" value="52428800" />
+	<package name="tony" extends="struts-default">
+		<!-- 用于处理上传文件的公用ACTION，我因为项目使用了spring，所以class这样配置，否则，需要正常进行配置写完整类路径，此外，这里不需要配result节点 -->
+		<action name="com_*" class="commonAction" method="{1}">
+		 	<result name="success" type="stream">
+					<param name="contentType">text/plain</param>
+					<param name="inputName">textStream</param>
+				</result>
+		 </action>
+	     <action name="user_*" class="userAction" method="{1}">
+	          <result name="success" type="stream">
+					<param name="contentType">text/plain</param>
+					<param name="inputName">textStream</param>
+				</result>
+				<result name="file" type="stream">
+					<param name="contentType">application/octet-stream</param>
+					<param name="inputName">textStream</param>
+					<param name="contentDisposition">attachment;filename="${disposition}"</param>
+					<param name="bufferSize">4096</param>
+				</result>
+				<result name="regSuccess">/jsp/front/index.jsp</result>
+				<result name="regFalse">/jsp/front/index.jsp</result>
+	     </action>
+	     <action name="serve_*" class="serveAction" method="{1}">
+	     	 <result name="success" type="stream">
+					<param name="contentType">text/plain</param>
+					<param name="inputName">textStream</param>
+				</result>
+	     </action>
+	     <action name="goods_*" class="goodsAction" method="{1}">
+	     	 <result name="success" type="stream">
+					<param name="contentType">text/plain</param>
+					<param name="inputName">textStream</param>
+			</result>
+	     	 <result name="tospInfo">/jsp/front/esjy/spinfo.jsp</result>
+	     </action>
+	     <action name="report_*" class="reportAction" method="{1}">
+		 	<result name="success" type="stream">
+					<param name="contentType">text/plain</param>
+					<param name="inputName">textStream</param>
+			</result>
+			<result name="toPreviewReportSuccesss">/jsp/front/ztbd/previewReport.jsp</result>
+			<result name="toreportPageSuccesss">/jsp/front/ztbd/ReportPage.jsp</result>
+		 </action>
+	     <action name="comment_*" class="commentAction" method="{1}">
+		 	<result name="success" type="stream">
+					<param name="contentType">text/plain</param>
+					<param name="inputName">textStream</param>
+			</result>
+		 </action>
+	     <action name="upload_*" class="uploadUtilAction" method="{1}">
+		 	<result name="success" type="stream">
+					<param name="contentType">text/plain</param>
+					<param name="inputName">textStream</param>
+			</result>
+		 </action>
+	</package>
+</struts>    
